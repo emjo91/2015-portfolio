@@ -1,0 +1,1 @@
+// This page is hooked up correctly :) tested with an alert.
