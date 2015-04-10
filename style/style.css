@@ -1,3 +1,164 @@
-body {
-  background: black;
+/* PAGE RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*html, body {
+  overflow-x: hidden;
+}*/
+
+p {
+  color: #212121;
+}
+
+.columns {
+  padding: 10px 0;
+}
+
+/* NAVIGATION */
+
+nav.main-nav {
+  padding: 30px 0;
+}
+
+nav.main-nav ul {
+  list-style: none;
+}
+
+nav.main-nav li {
+  display: inline-block;
+}
+
+nav.main-nav a {
+  text-decoration: none;
+  padding: 10px 25px;
+  margin: 0 5px;
+  border-radius: 8px;
+  color: #212121;
+}
+
+nav.main-nav a:hover {
+  background: #ffffff;
+  opacity: .5;
+}
+
+/* SHAPES */
+
+.bubble {
+  border-radius: 100px;
+  background: #ffffff;
+  box-shadow: #125861 8px 8px 3px;
+}
+
+/* TEXT */
+
+.huge-text {
+  font-size: 12vw;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.thin-huge-text {
+  font-size: 200%;
+  color: #ffffff;
+  font-family: "Arial Narrow";
+}
+
+/* REUSABLE CSS */
+
+.overflow-text {
+  overflow: auto;
+}
+
+.vert-padding {
+  padding: 20px 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.go-right {
+  float: right;
+}
+
+.go-left {
+  float: left;
+}
+
+.width-100 {
+ width: 100%; 
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.right-100 {
+  right: -100%;
+}
+
+.right-200 {
+  right: -200%;
+}
+
+.right-300 {
+  right: -300%;
+}
+
+/* COLOURS & TEXTURES*/
+
+.teal {
+  background: #1fa1b1;
+}
+
+.teal-stripe {
+  background: url('../images/teal-stripe.jpg'); 
+}
+
+.dark-purple {
+  background: #54187b;
+}
+
+.lime-green {
+  background: #7daa27;
+}
+
+.white {
+  background: #ffffff;
+}
+
+.black {
+  background: #232323;
+}
+
+/* Z-INDEX LAYERS */
+
+.z1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.z2 {
+  position: absolute;
+  z-index: 2;
+}
+
+.z3 {
+  position: absolute;
+  z-index: 3;
+  right: -200%;
+}
+
+.z4 {
+  position: absolute;
+  z-index: 4;
+  right: -100%;
+}
+
+.z5 {
+  position: absolute;
+  z-index: 5;
 }
