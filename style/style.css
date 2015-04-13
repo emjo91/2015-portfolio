@@ -5,16 +5,33 @@
   margin: 0;
 }
 
-/*html, body {
+html, body {
   overflow-x: hidden;
-}*/
+}
 
 p {
   color: #212121;
+  margin: 10px 0;
 }
 
 .columns {
   padding: 10px 0;
+}
+
+/* BOX AROUND TEXT */
+
+.box {
+  background: #ffffff;
+  opacity: .5;
+  border-radius: 15px;
+}
+
+.blue-shadow {
+  box-shadow: #15727d 5px 5px 3px;
+}
+
+.green-shadow {
+  box-shadow: #5d7f1c 5px 5px 3px;
 }
 
 /* NAVIGATION */
@@ -44,6 +61,31 @@ nav.main-nav a:hover {
   opacity: .5;
 }
 
+nav.quick-links {
+  padding: 30px 0;
+}
+
+nav.quick-links ul {
+  list-style: none;
+}
+
+nav.quick-links li {
+  display: inline-block;
+}
+
+nav.quick-links a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+nav.quick-links a:hover {
+  text-decoration: underline;
+}
+
 /* SHAPES */
 
 .bubble {
@@ -66,7 +108,23 @@ nav.main-nav a:hover {
   font-family: "Arial Narrow";
 }
 
+h2 {
+  font-size: 1.3em;
+  color: #212121;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 /* REUSABLE CSS */
+
+.height-bar {
+  height: 8px;
+  border-radius: 5px;
+}
+
+.margin-push-down {
+  padding: 0 0 20px 0;
+}
 
 .overflow-text {
   overflow: auto;
@@ -90,6 +148,42 @@ nav.main-nav a:hover {
 
 .width-100 {
  width: 100%; 
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.width-80 {
+  width: 80%;
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-30 {
+  width: 30%;
+}
+
+.width-20 {
+  width: 20%;
+}
+
+.width-10 {
+  width: 10%;
 }
 
 .height-100 {
@@ -116,6 +210,22 @@ nav.main-nav a:hover {
 
 .teal-stripe {
   background: url('../images/teal-stripe.jpg'); 
+}
+
+.green-tree-bark {
+  background: url('../images/tree_bark_green.png');
+}
+
+.purple-geo {
+  background: url('../images/geometry_purple.jpg');
+}
+
+.teal-maze {
+  background: url('../images/pw_maze_white_teal.jpg');
+}
+
+.teal-wave-grid {
+  background: url('../images/wavegrid_teal.jpg');
 }
 
 .dark-purple {
@@ -161,4 +271,26 @@ nav.main-nav a:hover {
 .z5 {
   position: absolute;
   z-index: 5;
+}
+
+/* FORMS */
+
+input {
+  width: 100%;
+  background: #ffffff;
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px) {
+  .box {
+    background: #ffffff;
+    opacity: .5;
+    border-radius: 0;
+  }
 }

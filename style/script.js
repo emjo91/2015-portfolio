@@ -1,7 +1,13 @@
 // This page is hooked up correctly :) tested with an alert.
+  
+$(document).ready(function() {
 
-window.onload function(){
-    window.addEventListener("keypress", myAlert, false);
-    
-    var myAlert = alert("YAY!");
-};
+    //create a horizontal scroller
+    $('#about').SetScroller({
+        velocity: 80,
+        direction: 'horizontal'
+        //more tweaks on the source code of plugin page
+    });
+
+
+});
