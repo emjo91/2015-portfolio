@@ -10,8 +10,12 @@ html, body {
 }
 
 p {
-  color: #212121;
+  color: #232323;
   margin: 10px 0;
+}
+
+i:hover {
+  transform: rotate(15deg);
 }
 
 .columns {
@@ -53,7 +57,7 @@ nav.main-nav a {
   padding: 10px 25px;
   margin: 0 5px;
   border-radius: 8px;
-  color: #212121;
+  color: #232323;
 }
 
 nav.main-nav a:hover {
@@ -190,6 +194,10 @@ h2 {
   height: 100%;
 }
 
+.left {
+  left: -100%;
+}
+
 .right-100 {
   right: -100%;
 }
@@ -203,6 +211,10 @@ h2 {
 }
 
 /* COLOURS & TEXTURES*/
+
+.white-text {
+  color: #ffffff;
+}
 
 .teal {
   background: #1fa1b1;
@@ -285,7 +297,55 @@ textarea {
   width: 100%;
 }
 
+.send {
+  width: 35%;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
 /* MEDIA QUERIES */
+
+@media (max-width: 550px) {
+    
+    .border-bottom-grey {
+      border-bottom: 1px solid #cccccc;
+    }
+
+    .border-left-grey {
+      border-left: 1px solid #cccccc;
+    }
+  
+    nav.main-nav {
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    nav.main-nav ul {
+      list-style: none;
+    }
+
+    nav.main-nav li {
+      display: inline-block;
+      width: 50%;
+      background: #ffffff;
+      padding: 20px 0;
+      opacity: .5;
+    }
+
+    nav.main-nav a {
+      text-decoration: none;
+      margin: 0;
+      border-radius: none;
+      color: none;
+    }
+
+    nav.main-nav a:hover {
+      background: none;
+      opacity: 1;
+      text-decoration: underline;
+    }
+}
 
 @media (max-width: 1000px) {
   .box {
