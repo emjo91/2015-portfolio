@@ -241,10 +241,6 @@ h2 {
   background: #1fa1b1;
 }
 
-.teal-stripe {
-  background: url('../images/teal-stripe.jpg'); 
-}
-
 .green-tree-bark {
   background: url('../images/tree_bark_green.png');
 }
@@ -261,8 +257,17 @@ h2 {
   background: url('../images/wavegrid_teal.jpg');
 }
 
+.green-swirl {
+  background: url('../images/subtle_white_mini_waves_green.jpg');
+}
+
+
 .dark-purple {
-  background: #54187b;
+  background: #740eb6;
+}
+
+.purple {
+  background: #9114e3;
 }
 
 .lime-green {

@@ -2,15 +2,7 @@
   
 window.onload = function(){
   // Variables
-  var helloWorld = document.getElementById("helloWorld"); 
-  
-  var homePage = document.getElementById("home");
-  var aboutPage = document.getElementById("about");
-  var portfolioPage = document.getElementById("portfolio");
-  var contactPage = document.getElementById("contact");
-  
-  var cog = document.getElementsByClassName("fa-cog");
-  
+  var helloWorld = document.getElementById("helloWorld");   
   
   helloWorld.addEventListener("click", helloSwap);
   
@@ -59,22 +51,22 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   
-  // Refactored scroll animation
+  // Refactored scroll animation left-right
   
   $(".home-button").click(function(){
-      $("body").animate({left: '0px'});
+      $("body").animate({left: '0px'}, 1200);
   });
   
   $(".portfolio-button").click(function(){
-      $("body").animate({left: '-100%'});
+      $("body").animate({left: '-100%'}, 1200);
   });
   
   $(".about-button").click(function(){
-      $("body").animate({left: '-200%'});
+      $("body").animate({left: '-200%'}, 1200);
   });
   
   $(".contact-button").click(function(){
-      $("body").animate({left: '-300%'});
+      $("body").animate({left: '-300%'}, 1200);
   });
 
 });
