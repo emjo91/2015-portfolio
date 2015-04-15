@@ -61,7 +61,7 @@ $(document).ready(function(){
   
   // Refactored scroll animation
   
-  $("#home-button").click(function(){
+  $(".home-button").click(function(){
       $("body").animate({left: '0px'});
   });
   
@@ -69,64 +69,12 @@ $(document).ready(function(){
       $("body").animate({left: '-100%'});
   });
   
-  $("#about-button").click(function(){
+  $(".about-button").click(function(){
       $("body").animate({left: '-200%'});
   });
   
-  // // from home page
-  //
-  // $("#portfolio1").click(function(){
-  //     $("body").animate({left: '-100%'});
-  // });
-  //
-  // $("#about1").click(function(){
-  //     $("body").animate({left: '-200%'});
-  // });
-  //
-  // $("#contact1").click(function(){
-  //     $("body").animate({left: '-300%'});
-  // });
-  //
-  // // from portfolio page
-  //
-  // $("#home2").click(function(){
-  //     $("body").animate({left: '0px'});
-  // });
-  //
-  // $("#about2").click(function(){
-  //     $("body").animate({left: '-200%'});
-  // });
-  //
-  // $("#contact2").click(function(){
-  //     $("body").animate({left: '-300%'});
-  // });
-  //
-  // // from about page
-  //
-  // $("#home3").click(function(){
-  //     $("body").animate({left: '0px'});
-  // });
-  //
-  // $("#portfolio3").click(function(){
-  //     $("body").animate({left: '-100%'});
-  // });
-  //
-  // $("#contact3").click(function(){
-  //     $("body").animate({left: '-300%'});
-  // });
-  //
-  // // from contact page
-  //
-  // $("#home4").click(function(){
-  //     $("body").animate({left: '0px'});
-  // });
-  //
-  // $("#portfolio4").click(function(){
-  //     $("body").animate({left: '-100%'});
-  // });
-  //
-  // $("#about4").click(function(){
-  //     $("body").animate({left: '-200%'});
-  // });
+  $(".contact-button").click(function(){
+      $("body").animate({left: '-300%'});
+  });
 
 });
