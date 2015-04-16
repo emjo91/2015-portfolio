@@ -54,7 +54,7 @@ $(document).ready(function(){
   // Refactored scroll animation left-right
   
   $(".home-button").click(function(){
-      $("body").animate({left: '0px'}, 1200);
+      $("body").animate({left: '0%'}, 1200);
   });
   
   $(".portfolio-button").click(function(){

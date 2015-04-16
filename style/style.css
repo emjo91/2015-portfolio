@@ -16,6 +16,17 @@ h1 {
   padding: 0;
 }
 
+h2 {
+  font-size: 1.3em;
+  color: #212121;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.purple-text {
+  color: #422b4c;
+}
+
 p {
   color: #232323;
   margin: 10px 0;
@@ -42,12 +53,25 @@ i.rotate-l:hover {
   border-radius: 15px;
 }
 
+.box-purple {
+  background: #b19abb;
+  border-radius: 15px;
+}
+
+.box-purple img {
+  width: 100%;
+}
+
 .blue-shadow {
   box-shadow: #15727d 5px 5px 3px;
 }
 
 .green-shadow {
   box-shadow: #5d7f1c 5px 5px 3px;
+}
+
+.purple-shadow {
+  box-shadow: #442554 5px 5px 3px;
 }
 
 /* NAVIGATION */
@@ -123,13 +147,6 @@ nav.quick-links a:hover {
   font-size: 200%;
   color: #ffffff;
   font-family: "Arial Narrow";
-}
-
-h2 {
-  font-size: 1.3em;
-  color: #212121;
-  font-family: sans-serif;
-  font-weight: bold;
 }
 
 /* REUSABLE CSS */
@@ -261,9 +278,13 @@ h2 {
   background: url('../images/subtle_white_mini_waves_green.jpg');
 }
 
+.purple-knit {
+  background: url('../images/purple-knit.jpg');
+}
+
 
 .dark-purple {
-  background: #740eb6;
+  background: #54187b;
 }
 
 .purple {
@@ -381,8 +402,10 @@ textarea {
 
 @media (max-width: 1000px) {
   .box {
-    background: #ffffff;
-    opacity: .5;
+    border-radius: 0;
+  }
+  
+  .box-purple {
     border-radius: 0;
   }
 }
