@@ -60,6 +60,12 @@ i.rotate-l:hover {
 
 .box-purple img {
   width: 100%;
+  box-shadow: #7b6c83 3px 3px 3px;
+}
+
+.box-purple img:hover {
+  border-top-left-radius: 75px;
+  border-bottom-right-radius: 75px;
 }
 
 .blue-shadow {
@@ -359,6 +365,7 @@ textarea {
 
 /* MEDIA QUERIES */
 
+
 @media (max-width: 550px) {
     
     .border-bottom-grey {
@@ -398,6 +405,12 @@ textarea {
       opacity: 1;
       text-decoration: underline;
     }
+}
+
+@media (max-width: 641px) {
+  .box-purple img {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1000px) {
